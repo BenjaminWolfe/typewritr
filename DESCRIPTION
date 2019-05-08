@@ -1,0 +1,21 @@
+Package: typewritr
+Title: An R package for oddball characters and common R Markdown tasks
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Benjamin",
+           family = "Wolfe",
+           role = c("aut", "cre"),
+           email = "benjamin.e.wolfe@gmail.com",
+           comment = c(ORCID = "0000-0002-4339-9328"))
+Description: This package helps with typing and formatting quirks and cases
+    you might run into in your R Markdown journeys. I hope you find it useful.
+    Feel free to tweet suggestions at me @BenjaminWolfe!
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    glue,
+    scales,
+    lubridate
+RoxygenNote: 6.1.1
