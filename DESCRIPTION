@@ -17,5 +17,8 @@ Imports:
     dplyr,
     glue,
     scales,
-    lubridate
+    lubridate,
+    magrittr,
+    tibble,
+    tidyr
 RoxygenNote: 6.1.1
